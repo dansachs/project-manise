@@ -1,6 +1,6 @@
 # Project Manise
 
-A Python pipeline for extracting, parsing, cleaning, and processing dictionary data from PDF dictionaries of Ambonese Malay (a dialect of Indonesian). The pipeline converts raw dictionary text into structured data and generates parallel sentence pairs for language processing tasks.
+A Python pipeline for extracting, parsing, cleaning, and processing dictionary data from PDF dictionaries of Ambonese Malay. The pipeline converts raw dictionary text into structured data and generates parallel sentence pairs for language processing tasks.
 
 ## Overview
 
@@ -213,12 +213,4 @@ Each line is a JSON object:
 - **Dialect Preservation**: The correction script (Step 4) is designed to preserve authentic Ambonese Malay dialectal variations. It only fixes obvious OCR errors, not dialectal spelling differences.
 - **Resume Capability**: Scripts support resuming from interruptions by tracking progress in output files.
 - **Logging**: All scripts generate detailed logs in `outputs/logs/` with timestamps.
-
-## License
-
-[Add your license here]
-
-## Contributing
-
-[Add contribution guidelines here]
 
