@@ -1,0 +1,12 @@
+# Code Generation Standards
+- **Precision**: Only modify code directly relevant to the specific request. Do not change unrelated functionality or formatting.
+- **Completeness**: Never replace code with placeholders like `// ... rest of the processing ...` or `# ... existing code`. Always include the complete, executable code block.
+
+# Problem Solving Protocol
+1. **Analysis**: For complex requests, begin your response with a section titled `## Analysis` where you restate the user's goal to ensure alignment.
+2. **Strategy**: Break problems into smaller steps. Think through each step separately before implementing.
+3. **Planning**: Always provide a complete PLAN with REASONING based on evidence from code and logs before making changes.
+4. **Debugging**: Explain your OBSERVATIONS clearly, then provide REASONING to identify the exact issue. If the root cause is ambiguous, propose adding console logs to gather data first.
+
+# Other Notes
+1. I run Python3
