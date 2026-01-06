@@ -320,9 +320,9 @@ def visualize_embeddings(
 
 def main():
     """Main function."""
-    # Get project root (parent of visualization directory or current directory)
+    # Get project root (parent of evaluation directory or current directory)
     script_dir = Path(__file__).parent
-    if script_dir.name == 'visualization':
+    if script_dir.name == 'evaluation':
         project_root = script_dir.parent
     else:
         project_root = Path.cwd()
